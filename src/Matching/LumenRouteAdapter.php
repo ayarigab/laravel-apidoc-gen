@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Matching;
+namespace Ayarigab\ApiDoc\Matching;
 
 use Illuminate\Routing\Route;
 

@@ -45,7 +45,7 @@ php artisan apidoc:rebuild
  - Publish the vendor views by running:
  
  ```bash
- php artisan vendor:publish --provider="Mpociot\ApiDoc\ApiDocGeneratorServiceProvider" --tag=apidoc-views
+ php artisan vendor:publish --provider="Ayarigab\ApiDoc\ApiDocGeneratorServiceProvider" --tag=apidoc-views
  ```
  
  This will copy the views files to `\resources\views\vendor\apidoc`.
@@ -73,4 +73,4 @@ php -d memory_limit=1G artisan apidoc:generate
 
 ## Further modification
 
-This package uses [Documentarian](https://github.com/mpociot/documentarian) to generate the API documentation. If you want to modify the CSS files of your documentation, or simply want to learn more about what is possible, take a look at the [Documentarian guide](http://marcelpociot.de/documentarian/installation).
+This package uses [Documentarian](https://github.com/ayarigab/documentarian) to generate the API documentation. If you want to modify the CSS files of your documentation, or simply want to learn more about what is possible, take a look at the [Documentarian guide](http://marcelpociot.de/documentarian/installation).

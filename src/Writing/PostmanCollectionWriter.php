@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Writing;
+namespace Ayarigab\ApiDoc\Writing;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;

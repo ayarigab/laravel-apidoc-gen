@@ -1,12 +1,12 @@
 <?php
 
-namespace Mpociot\ApiDoc\Writing;
+namespace Ayarigab\ApiDoc\Writing;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
-use Mpociot\ApiDoc\Tools\DocumentationConfig;
-use Mpociot\Documentarian\Documentarian;
+use Ayarigab\ApiDoc\Tools\DocumentationConfig;
+use Ayarigab\Documentarian\Documentarian;
 
 class Writer
 {

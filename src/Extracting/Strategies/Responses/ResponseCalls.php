@@ -1,16 +1,16 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting\Strategies\Responses;
+namespace Ayarigab\ApiDoc\Extracting\Strategies\Responses;
 
 use Dingo\Api\Dispatcher;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Str;
-use Mpociot\ApiDoc\Extracting\ParamHelpers;
-use Mpociot\ApiDoc\Extracting\Strategies\Strategy;
-use Mpociot\ApiDoc\Tools\Flags;
-use Mpociot\ApiDoc\Tools\Utils;
+use Ayarigab\ApiDoc\Extracting\ParamHelpers;
+use Ayarigab\ApiDoc\Extracting\Strategies\Strategy;
+use Ayarigab\ApiDoc\Tools\Flags;
+use Ayarigab\ApiDoc\Tools\Utils;
 
 /**
  * Make a call to the route and retrieve its response.
