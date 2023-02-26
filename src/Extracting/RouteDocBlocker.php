@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting;
+namespace Ayarigab\ApiDoc\Extracting;
 
 use Illuminate\Routing\Route;
-use Mpociot\ApiDoc\Tools\Utils;
-use Mpociot\Reflection\DocBlock;
+use Ayarigab\ApiDoc\Tools\Utils;
+use Ayarigab\Reflection\DocBlock;
 use ReflectionClass;
 
 /**

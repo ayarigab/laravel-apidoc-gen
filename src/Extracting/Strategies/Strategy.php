@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpociot\ApiDoc\Extracting\Strategies;
+namespace Ayarigab\ApiDoc\Extracting\Strategies;
 
 use Illuminate\Routing\Route;
-use Mpociot\ApiDoc\Tools\DocumentationConfig;
+use Ayarigab\ApiDoc\Tools\DocumentationConfig;
 use ReflectionClass;
 use ReflectionMethod;
 

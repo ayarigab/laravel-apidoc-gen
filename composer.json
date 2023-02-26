@@ -1,26 +1,26 @@
 {
-    "name": "mpociot/laravel-apidoc-generator",
+    "name": "ayarigab/laravel-apidoc-gen",
     "license": "MIT",
-    "description": "Generate beautiful API documentation from your Laravel application",
+    "description": "Generate beautiful API documentation from your Laravel application, A work improve from Marcel Pociot",
     "keywords": [
         "API",
         "Documentation",
         "Laravel"
     ],
-    "homepage": "http://github.com/mpociot/laravel-apidoc-generator",
+    "homepage": "http://github.com/ayarigab/laravel-apidoc-gen",
     "authors": [
         {
-            "name": "Marcel Pociot",
-            "email": "m.pociot@gmail.com"
+            "name": "Ayariga Bright",
+            "email": "jessybright66@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.2.0",
+        "php": "^7.3|^8.0",
         "ext-json": "*",
         "fzaninotto/faker": "^1.8",
-        "illuminate/console": "^5.7|^6.0|^7.0|^8.0",
-        "illuminate/routing": "^5.7|^6.0|^7.0|^8.0",
-        "illuminate/support": "^5.7|^6.0|^7.0|^8.0",
+        "illuminate/console": "^7.0|^8.75|^9.0",
+        "illuminate/routing": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0",
         "league/flysystem": "^1.0",
         "mpociot/documentarian": "^0.4.0",
         "mpociot/reflection-docblock": "^1.0.1",
@@ -30,7 +30,7 @@
     },
     "require-dev": {
         "dms/phpunit-arraysubset-asserts": "^0.1.0",
-        "laravel/lumen-framework": "^5.7|^6.0|^7.0|^8.0",
+        "laravel/lumen-framework": "^7.0|^8.0",
         "league/fractal": "^0.19.0",
         "orchestra/testbench": "^3.7|^4.0|^5.0",
         "phpstan/phpstan": "^0.11.15",
